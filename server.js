@@ -4,6 +4,4 @@ const app=new Koa();
 app.use(async (ctx)=>{
     ctx.body="她她她她她她她"
 })
-app.listen(3000,function(){
-    console.log('start')
-})
+app.listen(3000)
